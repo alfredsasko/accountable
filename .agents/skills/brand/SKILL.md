@@ -1,3 +1,8 @@
+---
+name: brand
+description: Accountable brand guidelines for typography, colors, surfaces, and tone. Use for UI work.
+---
+
 # Brand
 
 ## Fonts
