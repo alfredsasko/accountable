@@ -65,12 +65,14 @@ You can follow the whole course with your own build. On each day that we work on
 
 Commit your own changes before you switch branches. From Week 2 Day 2 on, run `npm run seed` after you switch, then `npm run dev`. `npm run seed` brings your local database up to date and puts the sample data back, and it asks first: type `yes`.
 
-Your `main` holds your own build for the whole course, and each change gets a branch of its own that you merge into `main` (Week 1 Day 3 explains this). If you've been building your own version and want to carry on from mine instead, keep yours on a branch, then move your `main` onto my branch for the day you want:
+Your `main` holds your own build for the whole course, and each change gets a branch of its own that you merge into `main` (Week 1 Day 3 explains this). If you've been building your own version and want to carry on from mine instead, keep yours on a branch with a name you haven't used yet, then move your `main` onto my branch for the day you want. For example, for my Day 2 setup:
 
 ```bash
-git branch my-version
+git branch my-day2
 git checkout --no-track -B main origin/week1day2-end
 ```
+
+Each day's instructions give these commands with a branch name for that day.
 
 ## Share your work
 
