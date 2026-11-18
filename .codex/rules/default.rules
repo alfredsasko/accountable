@@ -1,2 +1,0 @@
-prefix_rule(pattern = ["uv"], decision = "allow")
-prefix_rule(pattern = ["npm"], decision = "allow")
