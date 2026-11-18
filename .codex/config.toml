@@ -8,6 +8,9 @@ glob_scan_max_depth = 3
 
 [permissions.accountable.filesystem.":workspace_roots"]
 "**/*.env" = "deny"
+".env" = "deny"
+"**/.env" = "deny"
+"**/.env.*" = "deny"
 
 [mcp_servers.playwright]
 command = "npx"
